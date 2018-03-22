@@ -137,10 +137,13 @@ public class SetorHelper extends SQLiteOpenHelper {
                 R.mipmap.apicolas, R.string.setor_descricao_apicultura, R.drawable.apico, "Sem Ramal", -5.887602, -35.361685));
 
         listaSetor.add(new Setor("Aquicultura", R.string.horario, "email@responsável.com", "Desconhecido",
-                R.mipmap.aqui, R.string.setor_descricao_ru, R.drawable.aqui, "Ramal 226", -5.885471, -35.362908));
+                R.mipmap.aqui, R.string.setor_descricao_aquicultura, R.drawable.aqui, "Ramal 226", -5.885471, -35.362908));
+
+        listaSetor.add(new Setor("Avicultura", R.string.horario, "email@responsável.com", "Taniro Chacon",
+                R.mipmap.avi, R.string.setor_descricao_avicultura, R.drawable.avi, "Sem Ramal", -5.886712, -35.363297));
 
         listaSetor.add(new Setor("Biblioteca", R.string.horario, "email@responsável.com", "Desconhecido",
-                R.mipmap.bibli, R.string.setor_descricao_ru, R.drawable.biblioteca, "Ramal 228", -5.885471, -35.362908));
+                R.mipmap.bibli, R.string.setor_descricao_biblioteca, R.drawable.biblioteca, "Ramal 228", -5.885471, -35.362908));
 
         listaSetor.add(new Setor("Centro Vocacional Tecnológico - CVT", R.string.horario, "email@responsável.com", "Taniro Chacon",
                 R.mipmap.cvt, R.string.setor_descricao_cvt, R.drawable.cvt, "Ramal 209", -5.884567, -35.364924));
@@ -151,26 +154,23 @@ public class SetorHelper extends SQLiteOpenHelper {
         listaSetor.add(new Setor("Informática", R.string.horario, "email@responsável.com", "Taniro Chacon",
                 R.mipmap.info, R.string.descricao_informatica, R.drawable.info, "Ramal 220", -5.885786, -35.365748));
 
+        listaSetor.add(new Setor("Graduação", R.string.horario, "email@responsável.com", "Desconhecido",
+                R.mipmap.gradu, R.string.setor_descricao_graduacao, R.drawable.graduacao, "Ramal 215", -5.885471, -35.362908));
+
+        listaSetor.add(new Setor("Lanchonete", R.string.horario, "email@responsável.com", "Taniro Chacon",
+                R.mipmap.lanchonete, R.string.setor_descricao_lanchonete, R.drawable.lanchonete, "Sem Ramal", -5.884967, -35.363785));
+
         listaSetor.add(new Setor("Prédio e-Tec", R.string.horario, "email@responsável.com", "Ivan Max",
                 R.mipmap.etec, R.string.setor_descricao_predio_etec, R.drawable.etec, "Ramal 224", -5.885260, -35.366496));
 
         listaSetor.add(new Setor("Restaurante universitário - RU", R.string.horario, "email@responsável.com", "Taiana Rodrigues",
                 R.mipmap.ru, R.string.setor_descricao_ru, R.drawable.ru, "Ramal 219", -5.885471, -35.362908));
 
-//        listaSetor.add(new Setor("Lanchonete", R.string.horario, "email@responsável.com", "Taniro Chacon",
-//                R.mipmap.lanchonete_round, R.string.setor_descricao_lanchonete, R.drawable.lanchonete, "(84)3342-2297", -5.884967, -35.363785));
-//
-//        listaSetor.add(new Setor("Avicultura", R.string.horario, "email@responsável.com", "Taniro Chacon",
-//                R.mipmap.avi_round, R.string.setor_descricao_avicultura, R.drawable.avi, "(84)3342-2297", -5.886712, -35.363297));
-//
 //        listaSetor.add(new Setor("Bovinocultura", R.string.horario, "email@responsável.com", "Desconhecido",
 //                R.mipmap.ru_round, R.string.setor_descricao_ru, R.drawable.eaj, "(84)43342-2297 ou Ramal 208", -5.885471, -35.362908));
 //
 //        listaSetor.add(new Setor("Enfermaria", R.string.horario, "email@responsável.com", "Desconhecido",
 //                R.mipmap.etec_round, R.string.setor_descricao_ru, R.drawable.eaj, "(84)43342-2297 ou Ramal 219", -5.885471, -35.362908));
-//
-//        listaSetor.add(new Setor("Graduação", R.string.horario, "email@responsável.com", "Desconhecido",
-//                R.mipmap.graduacao_round, R.string.setor_descricao_ru, R.drawable.graduacao, "(84)43342-2297 ou Ramal 215", -5.885471, -35.362908));
 
 //        listaSetor.add(new Setor("Agropecuaria", R.string.horario, "email@responsável.com", "Desconhecido",
 //                R.mipmap.pecu_agro, R.string.setor_descricao_ru, R.drawable.eaj, "(84)43342-2297 ou Ramal 217", -5.885471, -35.362908));

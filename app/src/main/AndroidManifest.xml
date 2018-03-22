@@ -16,7 +16,8 @@
         <activity
             android:name=".activity.MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="locked">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,25 +25,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.SetorActivity" />
+            android:name=".activity.SetorActivity"
+            android:screenOrientation="locked"/>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCxPYtZD1hFNP2VOhscLYeZDYLh9Kn8iDE" />
 
-        <activity android:name=".activity.SobreActivity">
+        <activity android:name=".activity.SobreActivity"
+            android:screenOrientation="locked">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity.MainActivity" />
         </activity>
 
-        <activity android:name=".activity.ContatoActivity">
+        <activity android:name=".activity.ContatoActivity"
+            android:screenOrientation="locked">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity.MainActivity" />
         </activity>
 
-        <activity android:name=".activity.AjudaActivity">
+        <activity android:name=".activity.AjudaActivity"
+            android:screenOrientation="locked">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity.MainActivity" />

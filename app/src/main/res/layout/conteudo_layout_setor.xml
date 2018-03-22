@@ -222,26 +222,26 @@
                     android:orientation="vertical"
                     android:paddingBottom="3dp">
 
-                <TextView
-                    android:id="@+id/flag"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="false"
-                    android:visibility="gone"/>
+                    <TextView
+                        android:id="@+id/flag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="false"
+                        android:visibility="gone" />
 
-                <TextView
-                    android:id="@+id/longitude"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="longi"
-                    android:visibility="gone" />
+                    <TextView
+                        android:id="@+id/longitude"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="longi"
+                        android:visibility="gone" />
 
-                <TextView
-                    android:id="@+id/latitude"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="lati"
-                    android:visibility="gone" />
+                    <TextView
+                        android:id="@+id/latitude"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="lati"
+                        android:visibility="gone" />
                 </LinearLayout>
 
 
