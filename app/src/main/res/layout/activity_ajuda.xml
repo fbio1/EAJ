@@ -26,31 +26,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Ligação fora da UFRN para qualquer departamento é o número 3342-2297"
-                    android:textAppearance="@style/TextAppearance.Design.Snackbar.Message"
-                    android:textStyle="bold|italic" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="10dp"
-                    android:text="Ligações entre ramais do departamento é apenas digitar o ramal desejado, por exemplo, 102"
-                    android:textAppearance="@style/TextAppearance.Design.Snackbar.Message"
-                    android:textStyle="bold|italic" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="10dp"
-                    android:text="Ligações locais(Natal) é necessário digitar apenas o número desejado, por exemplo, 3620-5262"
-                    android:textAppearance="@style/TextAppearance.Design.Snackbar.Message"
-                    android:textStyle="bold|italic" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="10dp"
-                    android:text="Ligações Interubanas é necessário digitar o código + número de telefone, por exemplo, (011) 4004-7751"
+                    android:text="Para realizar ligações para os setores disque (84)3342-2297 e em seguida escolha o ramal desejado"
                     android:textAppearance="@style/TextAppearance.Design.Snackbar.Message"
                     android:textStyle="bold|italic" />
             </LinearLayout>
@@ -70,19 +46,6 @@
             app:cardCornerRadius="2dp"
             app:cardUseCompatPadding="true">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="16dp"
-                    android:text="Organização:"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
-            </LinearLayout>
-
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -93,7 +56,6 @@
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="5"
-                    android:layout_marginTop="50dp"
                     android:padding="16dp"
                     android:src="@drawable/eaj_nome" />
 
@@ -101,7 +63,6 @@
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="5"
-                    android:layout_marginTop="50dp"
                     android:src="@drawable/ufrn" />
             </LinearLayout>
 

@@ -133,37 +133,37 @@ public class SetorHelper extends SQLiteOpenHelper {
     public List createList() {
         List<Setor> listaSetor = new ArrayList<>();
 
-        listaSetor.add(new Setor("Apicultura", R.string.horario, "email@responsável.com", "Taniro Chacon",
+        listaSetor.add(new Setor("Apicultura", R.string.horario, "email@responsável.com", "Desconhecido",
                 R.mipmap.apicolas, R.string.setor_descricao_apicultura, R.drawable.apico, "Sem Ramal", -5.887602, -35.361685));
 
-        listaSetor.add(new Setor("Aquicultura", R.string.horario, "email@responsável.com", "Desconhecido",
+        listaSetor.add(new Setor("Aquicultura", R.string.horario, "ribeiro_k@hotmail.com", "Karina Ribeiro",
                 R.mipmap.aqui, R.string.setor_descricao_aquicultura, R.drawable.aqui, "Ramal 226", -5.885471, -35.362908));
 
-        listaSetor.add(new Setor("Avicultura", R.string.horario, "email@responsável.com", "Taniro Chacon",
+        listaSetor.add(new Setor("Avicultura", R.string.horario, "email@responsável.com", "Desconhecido",
                 R.mipmap.avi, R.string.setor_descricao_avicultura, R.drawable.avi, "Sem Ramal", -5.886712, -35.363297));
 
         listaSetor.add(new Setor("Biblioteca", R.string.horario, "email@responsável.com", "Desconhecido",
                 R.mipmap.bibli, R.string.setor_descricao_biblioteca, R.drawable.biblioteca, "Ramal 228", -5.885471, -35.362908));
 
-        listaSetor.add(new Setor("Centro Vocacional Tecnológico - CVT", R.string.horario, "email@responsável.com", "Taniro Chacon",
+        listaSetor.add(new Setor("Centro Vocacional Tecnológico - CVT", R.string.horario, "email@responsável.com", "Andre Stuwart",
                 R.mipmap.cvt, R.string.setor_descricao_cvt, R.drawable.cvt, "Ramal 209", -5.884567, -35.364924));
 
-        listaSetor.add(new Setor("Diretoria", R.string.horario, "email@responsável.com", "Júlio Cesar",
+        listaSetor.add(new Setor("Diretoria", R.string.horario, "julio@ufrnet.br", "Júlio Cesar",
                 R.mipmap.diretoria, R.string.setor_descricao_diretoria, R.drawable.direcao,"Ramal 201", -5.886449, -35.362213));
 
-        listaSetor.add(new Setor("Informática", R.string.horario, "email@responsável.com", "Taniro Chacon",
+        listaSetor.add(new Setor("Informática", R.string.horario, "-", "Taniro Chacon",
                 R.mipmap.info, R.string.descricao_informatica, R.drawable.info, "Ramal 220", -5.885786, -35.365748));
 
-        listaSetor.add(new Setor("Graduação", R.string.horario, "email@responsável.com", "Desconhecido",
+        listaSetor.add(new Setor("Graduação", R.string.horario, "-", "-",
                 R.mipmap.gradu, R.string.setor_descricao_graduacao, R.drawable.graduacao, "Ramal 215", -5.885471, -35.362908));
 
-        listaSetor.add(new Setor("Lanchonete", R.string.horario, "email@responsável.com", "Taniro Chacon",
+        listaSetor.add(new Setor("Lanchonete", R.string.horario, "-", "Desconhecido",
                 R.mipmap.lanchonete, R.string.setor_descricao_lanchonete, R.drawable.lanchonete, "Sem Ramal", -5.884967, -35.363785));
 
-        listaSetor.add(new Setor("Prédio e-Tec", R.string.horario, "email@responsável.com", "Ivan Max",
+        listaSetor.add(new Setor("Prédio e-Tec", R.string.horario, "-", "Ivan Max",
                 R.mipmap.etec, R.string.setor_descricao_predio_etec, R.drawable.etec, "Ramal 224", -5.885260, -35.366496));
 
-        listaSetor.add(new Setor("Restaurante universitário - RU", R.string.horario, "email@responsável.com", "Taiana Rodrigues",
+        listaSetor.add(new Setor("Restaurante universitário - RU", R.string.horario, "-", "Rogerio Rodrigues ",
                 R.mipmap.ru, R.string.setor_descricao_ru, R.drawable.ru, "Ramal 219", -5.885471, -35.362908));
 
 //        listaSetor.add(new Setor("Bovinocultura", R.string.horario, "email@responsável.com", "Desconhecido",

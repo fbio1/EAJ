@@ -207,7 +207,7 @@
                         android:layout_gravity="center_vertical"
                         android:layout_weight="9"
                         android:padding="8dp"
-                        android:text="@string/horarioEAJ"
+                        android:text="@string/horario"
                         android:textColor="#4b4b4b"
                         android:textSize="14sp"
                         android:textStyle="italic" />
