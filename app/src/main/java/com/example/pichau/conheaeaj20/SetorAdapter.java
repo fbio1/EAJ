@@ -13,6 +13,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.pichau.conheaeaj20.activity.SetorActivity;
+
 import java.util.List;
 
 public class SetorAdapter extends RecyclerView.Adapter {
