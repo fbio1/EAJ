@@ -27,9 +27,7 @@
 
     <string name="setor_descricao_aquicultura">Coordenação dos cursos técnico em Aquicultura.</string>
 
-    <string name="setor_descricao_ru">O Restaurante Universitário(RU) é o departamento que oferece a alimentação adequada cujo valor é R$ 7,00,
-        onde os alunos do Ensino Médio, da Graduação, Funcionários terceirizados, Professores e entre outros tem a disponibilizar de apreciar
-        as variedades alimentícias </string>
+    <string name="setor_descricao_ru">O Restaurante Universitário(RU) é o setor da EAJ onde ocorre a preparações das refeições diárias</string>
 
     <string name="setor_descricao_predio_etec">A Rede e-Tec Brasil é uma iniciativa do Ministério da Educação (MEC) que oferta cursos de educação
         profissional e tecnológica semi-presenciais, atuando na formação de trabalhadores egressos do ensino médio e da educação de jovens e adultos,
@@ -38,16 +36,15 @@
 
     <string name="setor_descricao_avicultura">Coordenação do Superior de Zootecnia</string>
 
-    <string name="setor_descricao_diretoria">A diretoria da escola onde todo o processo burocratico academico passa, reunioes constantemente
-        acontencem o que não é raro de não ver carros estacionados na frente.</string>
+    <string name="setor_descricao_diretoria">A Diretoria da EAJ é o local onde todo o processo burocratico acadêmico se encontra.</string>
 
     <string name="setor_descricao_apicultura">Coordenação do Superior de Apicultura</string>
 
     <string name="setor_descricao_graduacao">Setor das gatas</string>
 
-    <string name="setor_descricao_cvt">Centro Vocacional Tecnologico, o setor com laboratorios preparados para o ensino de graduação e Ensino Médio,
-        Quimica, fisica, biologia e Agroidustria são alguns dos laboratorios encontrados nele.</string>
+    <string name="setor_descricao_cvt">Centro Vocacional Tecnologico, o setor com laboratórios preparados para o ensino de Graduação e Ensino Médio.
+        Laboratórios de Química, Física, Biologia são alguns dos laboratorios encontrados nele.</string>
 
-    <string name="setor_descricao_biblioteca">Biclioteca da ufrn para que os alunos alocados da EAJ possam cunsultar a literatura para aprimorar o
-        conhecimento, ou passar o tempo no ar-condicionado e wi-fi ja que é o vicio da nova geração.</string>
+    <string name="setor_descricao_biblioteca">Biblioteca da EAJ é um local em que são guardados livros, documentos tridimensionais e
+        demais publicações para o público estudar, ler e consultar estas obras..</string>
 </resources>

@@ -6,8 +6,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.example.pichau.conheaeaj20.R;
 import com.example.pichau.conheaeaj20.Setor;
+import com.fabio.conheaeaj.R;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -10,8 +10,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.pichau.conheaeaj20.R;
+
 import com.example.pichau.conheaeaj20.Setor;
+import com.fabio.conheaeaj.R;
 
 public class FragmentSetor extends Fragment {
 

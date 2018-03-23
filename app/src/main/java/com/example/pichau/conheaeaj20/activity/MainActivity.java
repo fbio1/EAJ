@@ -13,10 +13,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
-import com.example.pichau.conheaeaj20.R;
 import com.example.pichau.conheaeaj20.Setor;
 import com.example.pichau.conheaeaj20.SetorAdapter;
 import com.example.pichau.conheaeaj20.sqlHelper.SetorHelper;
+import com.fabio.conheaeaj.R;
 
 import java.util.ArrayList;
 import java.util.List;
