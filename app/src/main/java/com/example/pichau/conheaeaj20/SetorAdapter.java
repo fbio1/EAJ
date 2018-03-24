@@ -14,7 +14,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.pichau.conheaeaj20.activity.SetorActivity;
-import com.fabio.conheaeaj.R;
+import com.fabio.eaj.conheaeaj.R;
+
 
 import java.util.List;
 

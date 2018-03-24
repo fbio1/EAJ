@@ -11,7 +11,7 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 
 import com.example.pichau.conheaeaj20.fragment.FixedTabsPageAdapter;
-import com.fabio.conheaeaj.R;
+import com.fabio.eaj.conheaeaj.R;
 
 
 public class SetorActivity extends AppCompatActivity {

@@ -10,8 +10,8 @@ public class Setor implements Serializable {
     private double longitude;
     private String nomeSetor;
     private int horarioFuncionamento;
-    private String emailResponsavel;
-    private String nomeResponsavel;
+    private int emailResponsavel;
+    private int nomeResponsavel;
     private int image;
     private int descricao;
     private int imageFragment;
@@ -21,21 +21,7 @@ public class Setor implements Serializable {
 
     }
 
-//    public Setor(String nomeSetor, int horarioFuncionamento, String emailResponsavel, String nomeResponsavel, int image, int descricao, String telefone, double latitude, double longitude) {
-//        this.id = id;
-//        this.latitude = latitude;
-//        this.longitude = longitude;
-//        this.nomeSetor = nomeSetor;
-//        this.horarioFuncionamento = horarioFuncionamento;
-//        this.emailResponsavel = emailResponsavel;
-//        this.nomeResponsavel = nomeResponsavel;
-//        this.image = image;
-//        this.descricao = descricao;
-//        this.telefone = telefone;
-//    }
-
-
-    public Setor(String nomeSetor, int horarioFuncionamento, String emailResponsavel, String nomeResponsavel, int image, int descricao, int imageFragment, String telefone, double latitude, double longitude) {
+    public Setor(String nomeSetor, int horarioFuncionamento, int emailResponsavel, int nomeResponsavel, int image, int descricao, int imageFragment, String telefone, double latitude, double longitude) {
         this.id = id;
         this.latitude = latitude;
         this.longitude = longitude;
@@ -89,19 +75,19 @@ public class Setor implements Serializable {
         this.horarioFuncionamento = horarioFuncionamento;
     }
 
-    public String getEmailResponsavel() {
+    public int getEmailResponsavel() {
         return emailResponsavel;
     }
 
-    public void setEmailResponsavel(String emailResponsavel) {
+    public void setEmailResponsavel(int emailResponsavel) {
         this.emailResponsavel = emailResponsavel;
     }
 
-    public String getNomeResponsavel() {
+    public int getNomeResponsavel() {
         return nomeResponsavel;
     }
 
-    public void setNomeResponsavel(String nomeResponsavel) {
+    public void setNomeResponsavel(int nomeResponsavel) {
         this.nomeResponsavel = nomeResponsavel;
     }
 
@@ -148,12 +134,12 @@ public class Setor implements Serializable {
         if (Double.compare(setor.latitude, latitude) != 0) return false;
         if (Double.compare(setor.longitude, longitude) != 0) return false;
         if (horarioFuncionamento != setor.horarioFuncionamento) return false;
+        if (emailResponsavel != setor.emailResponsavel) return false;
+        if (nomeResponsavel != setor.nomeResponsavel) return false;
         if (image != setor.image) return false;
         if (descricao != setor.descricao) return false;
         if (imageFragment != setor.imageFragment) return false;
         if (!nomeSetor.equals(setor.nomeSetor)) return false;
-        if (!emailResponsavel.equals(setor.emailResponsavel)) return false;
-        if (!nomeResponsavel.equals(setor.nomeResponsavel)) return false;
         return telefone.equals(setor.telefone);
     }
 
@@ -168,8 +154,8 @@ public class Setor implements Serializable {
         result = 31 * result + (int) (temp ^ (temp >>> 32));
         result = 31 * result + nomeSetor.hashCode();
         result = 31 * result + horarioFuncionamento;
-        result = 31 * result + emailResponsavel.hashCode();
-        result = 31 * result + nomeResponsavel.hashCode();
+        result = 31 * result + emailResponsavel;
+        result = 31 * result + nomeResponsavel;
         result = 31 * result + image;
         result = 31 * result + descricao;
         result = 31 * result + imageFragment;

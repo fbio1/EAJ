@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
-import com.fabio.conheaeaj.R;
+import com.fabio.eaj.conheaeaj.R;
 
 
 public class ContatoActivity extends AppCompatActivity {

@@ -12,7 +12,8 @@ import android.widget.TextView;
 
 
 import com.example.pichau.conheaeaj20.Setor;
-import com.fabio.conheaeaj.R;
+import com.fabio.eaj.conheaeaj.R;
+
 
 public class FragmentSetor extends Fragment {
 

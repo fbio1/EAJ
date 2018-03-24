@@ -16,7 +16,8 @@ import android.view.MenuItem;
 import com.example.pichau.conheaeaj20.Setor;
 import com.example.pichau.conheaeaj20.SetorAdapter;
 import com.example.pichau.conheaeaj20.sqlHelper.SetorHelper;
-import com.fabio.conheaeaj.R;
+import com.fabio.eaj.conheaeaj.R;
+
 
 import java.util.ArrayList;
 import java.util.List;
