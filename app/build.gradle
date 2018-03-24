@@ -8,8 +8,8 @@ android {
         applicationId "com.fabio.eaj.conheaeaj"
         minSdkVersion 14
         targetSdkVersion 26
-        versionCode 1
-        versionName "1"
+        versionCode 3
+        versionName "1.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
