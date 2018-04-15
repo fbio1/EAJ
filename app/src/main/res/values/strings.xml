@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ConheçaEAJ</string>
+    <string name="app_name">Conheça EAJ</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -37,5 +37,10 @@
 
     <string name="email_reponsavel">email@responsável.com</string>
     <string name="nome_responsavel">Responsável</string>
+    <string name="gabriel_quaresma">Gabriel Quaresma<a href="https://github.com/joaoGabriel55"></a></string>
+    <string name="fabio_henrique">Fábio Henrique<a href="https://github.com/fbio1"></a></string>
+    <string name="adryel_juliao">Adryel Julião<a href="https://github.com/dryel23"></a></string>
+    <string name="sobre_text">Esta aplicação tem como objetivo axiliar os discentes, docentes, funcinários ou visitantes
+                            na busca por informações e localização dos respectivos setetores da Escola Agrícola de Jundiaí/UFRN</string>
 </resources>
 
