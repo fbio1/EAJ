@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -25,7 +24,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    private List<Setor> listaSetor = new ArrayList<>();
+    private List<Setor> listaSetor = new ArrayList<Setor>();
     //private boolean flagList = false;
     private SetorHelper setorHelper;
 
@@ -57,7 +56,7 @@ public class MainActivity extends AppCompatActivity
                 setorHelper.insert(setorsTemp.get(i));
         }*/
         listaSetor = setorHelper.createList();
-        Log.i("eae", "criou");
+        //Log.i("eae", "criou");
 
         RecyclerView recyclerView = findViewById(R.id.my_recycler_view);
         SetorAdapter setorAdapter = new SetorAdapter(MainActivity.this, listaSetor);
