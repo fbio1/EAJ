@@ -37,25 +37,14 @@
             android:value="AIzaSyCxPYtZD1hFNP2VOhscLYeZDYLh9Kn8iDE" />
 
         <activity android:name="com.example.pichau.conheaeaj20.activity.SobreActivity"
-            android:screenOrientation="locked">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.pichau.conheaeaj20.activity.MainActivity" />
-        </activity>
+            android:screenOrientation="locked" android:parentActivityName="com.example.pichau.conheaeaj20.activity.MainActivity"></activity>
 
         <activity android:name="com.example.pichau.conheaeaj20.activity.ContatoActivity"
-            android:screenOrientation="locked">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.pichau.conheaeaj20.activity.MainActivity" />
-        </activity>
+            android:screenOrientation="locked" android:parentActivityName="com.example.pichau.conheaeaj20.activity.MainActivity"></activity>
 
         <activity android:name="com.example.pichau.conheaeaj20.activity.AjudaActivity"
-            android:screenOrientation="locked">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.pichau.conheaeaj20.activity.MainActivity" />
-        </activity>
+            android:screenOrientation="locked" android:parentActivityName="com.example.pichau.conheaeaj20.activity.MainActivity"></activity>
+
     </application>
 
 </manifest>

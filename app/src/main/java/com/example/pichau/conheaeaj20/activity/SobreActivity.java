@@ -25,7 +25,6 @@ public class SobreActivity extends AppCompatActivity {
         ab.setDisplayHomeAsUpEnabled(true);
 
         LinearLayout linearAdryel = findViewById(R.id.adryel);
-
         linearAdryel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -19,6 +19,5 @@ public class ContatoActivity extends AppCompatActivity {
 
         ab.setTitle("Contato");
         ab.setDisplayHomeAsUpEnabled(true);
-
     }
 }
